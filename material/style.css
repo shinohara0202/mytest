@@ -1,10 +1,5 @@
 
 
-.logo{
-  display:inline-block;
-  margin-top:20px;
-  padding-top: 12px;
-}
 
 header ul{
     display:flex;
@@ -69,4 +64,8 @@ header li{
   #vertical-js{
     list-style: none;
     padding:0;
+  }
+
+  form a{
+    text-decoration: none;
   }
