@@ -57,7 +57,7 @@ function dispTermset(corpoId, scrId) {
     //sideset
     function side_set(callSet) {
       const termArea = document.querySelector("#side-js");
-      termArea.style.display = "inline-block";
+      termArea.style.display = "inline";
 
       for (let i = 0; i < callSet.result.term_list.length; i++) {
         const span = document.createElement("span")
