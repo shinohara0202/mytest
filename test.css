@@ -12,8 +12,7 @@ h1 {
 /* h2の見出しの大きさを24ptにし、左側に青い長方形を追加し、下線を引く */
 h2 {
     font-size: 24pt;
-    border-left: 10px solid blue; /* 青い長方形 */
-    padding-left: 10px; /* 長方形とテキストの間隔 */
+    border-left: 10px solid #6699cc; /* 淡い青色 */
     text-decoration: underline; /* 下線 */
 }
 
@@ -25,4 +24,18 @@ body, p {
 /* ul・olに紐づくリストは、数字やリストと本文の間を少し空ける */
 ul, ol {
     padding-left: 20px; /* リストと本文の間隔を広げる */
+}
+
+
+/* 横幅に左右の余白を追加 */
+body {
+    margin: 0 auto; /* 中央揃えにし、自動的に左右に余白を作る */
+    max-width: 1200px; /* 最大横幅を設定 */
+}
+
+
+
+/* 文字の行間をデフォルトよりももう少し開ける */
+body, p {
+    line-height: 1.8; /* より広い行間に調整 */
 }
