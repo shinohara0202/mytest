@@ -14,6 +14,7 @@ h2 {
     font-size: 24pt;
     border-left: 10px solid #6699cc; /* 淡い青色 */
     text-decoration: underline; /* 下線 */
+    padding-left: 20px; /* 長方形とテキストの間隔を広げる */
 }
 
 /* 行間を少しゆったりとさせる */
