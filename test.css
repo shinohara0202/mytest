@@ -1,0 +1,28 @@
+/* 全体のフォントを明朝体にする */
+body {
+    font-family: 'ヒラギノ明朝 Pro', 'Hiragino Mincho Pro', serif;
+}
+
+/* h1の見出しを中央揃え、大きさ60ptにする */
+h1 {
+    text-align: center;
+    font-size: 60pt;
+}
+
+/* h2の見出しの大きさを24ptにし、左側に青い長方形を追加し、下線を引く */
+h2 {
+    font-size: 24pt;
+    border-left: 10px solid blue; /* 青い長方形 */
+    padding-left: 10px; /* 長方形とテキストの間隔 */
+    text-decoration: underline; /* 下線 */
+}
+
+/* 行間を少しゆったりとさせる */
+body, p {
+    line-height: 1.6; /* 行間を広めに設定 */
+}
+
+/* ul・olに紐づくリストは、数字やリストと本文の間を少し空ける */
+ul, ol {
+    padding-left: 20px; /* リストと本文の間隔を広げる */
+}
