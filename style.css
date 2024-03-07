@@ -10,15 +10,14 @@ body {
 header, footer {
   background-color: #0068B7; /* 色の設定 */
   color: white;
-  padding: 30px 200px; /* 上下の余白30px、左右の余白200px */
   width: 100%;
   box-sizing: border-box;
 }
 
 /* コンテンツエリアのスタイル設定 */
-.main-content {
-  text-align: center; /* 中央揃え */
+body {
   padding: 30px 200px; /* 上下の余白30px、左右の余白200px */
+  margin:0 auto;
 }
 
 /* h1とh2のスタイル設定 */
@@ -29,6 +28,7 @@ h1, h2 {
 
 h1 {
   font-size: 32px; /* 文字サイズ */
+  text-align: center; /* 中央揃え */
 }
 
 h2 {
