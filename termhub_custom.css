@@ -1,12 +1,12 @@
 @charset "UTF-8";
 :root {
-  --th-tx-1: #0068b7;
+  --th-tx-1: #EE1132;
   --th-tx-2: #333333;
   --th-bg-1: #ffffff;
   --th-bg-2: #f8fafa;
   --th-bg-3: #dee4e4;
-  --th-lk-1: #0070f3;
-  --th-lk-2: #0366d6;
+  --th-lk-1: #EE1132;
+  --th-lk-2: #EE1132;
 }
 
 * {
