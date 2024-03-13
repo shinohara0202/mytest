@@ -73,7 +73,7 @@ body::before {
   content: "";
   display: block;
   height: 1rem;
-  background: #0068b7;
+  background: #EE1132;
   position: absolute;
   top: 0;
   left: 0;
@@ -81,12 +81,12 @@ body::before {
 }
 
 body::after {
-  content: "© inglewood Co., Ltd. All Rights Reserved.";
+  content: "© lilycolor Co., Ltd. All Rights Reserved.";
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background: #0068b7;
+  background: #EE1132;
   color: #a5aeb3;
   font-size: 14px;
   font-weight: 700;
