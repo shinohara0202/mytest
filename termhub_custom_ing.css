@@ -110,7 +110,7 @@ body::after {
 
 /* h1: 規約タイトル */
 h1 {
-  margin: 4rem;
+  margin: 0 4rem 4rem 4rem ;
   font-size: 1.8rem;
   text-align: center;
   line-height: 1.25;
