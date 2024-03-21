@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-  --th-tx-1: ##003ba3;
+  --th-tx-1: #003ba3;
   --th-tx-2: #333333;
   --th-bg-1: #ffffff;
   --th-bg-2: #f8fafa;
@@ -81,7 +81,7 @@ body::before {
 }
 
 body::after {
-  content: "© inglewood Co., Ltd. All Rights Reserved.";
+  content: "© Recruit Co., Ltd. All Rights Reserved.";
   display: flex;
   justify-content: center;
   align-items: center;
