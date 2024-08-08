@@ -5,7 +5,7 @@
   --th-bg-1: #ffffff;
   --th-bg-2: #f8fafa;
   --th-bg-3: #dee4e4;
-  --th-lk-1: #C30202;
+  --th-lk-1: #333333;
   --th-lk-2: #C30202;
 }
 
@@ -131,7 +131,7 @@ h6 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   line-height: 1.25;
-  color: var(--th-tx-1);
+  color: white;
 }
 
 h2 {
