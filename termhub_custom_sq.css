@@ -1,0 +1,253 @@
+@charset "UTF-8";
+:root {
+  --th-tx-1: #C30202;
+  --th-tx-2: #333333;
+  --th-bg-1: #ffffff;
+  --th-bg-2: #f8fafa;
+  --th-bg-3: #dee4e4;
+  --th-lk-1: #C30202;
+  --th-lk-2: #C30202;
+}
+
+* {
+  /* Reset */
+  margin: 0;
+  padding: 0;
+
+  font-family: "din-2014", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+    "Helvetica Neue", HelveticaNeue, "Yu Gothic Medium", YuGothic, "Yu Gothic",
+    "Hiragino Sans", "Hiragino Kaku Gothic ProN", Arial, Verdana, Meiryo,
+    sans-serif;
+}
+
+::selection {
+  background: #e4e8e8;
+}
+
+address,
+area,
+article,
+aside,
+audio,
+blockquote,
+datalist,
+details,
+dl,
+fieldset,
+figure,
+form,
+input,
+iframe,
+img,
+meter,
+nav,
+ol,
+optgroup,
+option,
+output,
+p,
+pre,
+progress,
+ruby,
+section,
+table,
+textarea,
+ul,
+video {
+  margin-bottom: 1rem;
+}
+
+body {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  background: var(--th-bg-1);
+
+  color: var(--th-tx-2);
+  font-size: 1rem;
+  line-height: 1.8;
+
+  position: relative;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 5rem;
+  background: #E5E5E5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+body::after {
+  content: "© Recruit Co., Ltd. All Rights Reserved.";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background: #E5E5E5;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  font-family: "din-2014", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+    "Helvetica Neue", HelveticaNeue, "Yu Gothic Medium", YuGothic, "Yu Gothic",
+    "Hiragino Sans", "Hiragino Kaku Gothic ProN", Arial, Verdana, Meiryo,
+    sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#dispTermArea {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5.5rem 2rem 9rem;
+  position: relative;
+}
+
+/* h1: 規約タイトル */
+h1 {
+  margin: 0 4rem 4rem 4rem ;
+  font-size: 1.8rem;
+  border-left: 10px solid #EE1132; /* 淡い青色 */
+  padding-left: 10px; /* 長方形とテキストの間隔を広げる */
+  text-align: center;
+  line-height: 1.25;
+  color: var(--th-tx-1);
+}
+
+h2 {
+  background-color:#333333;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+  color: var(--th-tx-1);
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+a {
+  color: var(--th-lk-1);
+}
+
+a:hover {
+  color: var(--th-lk-2);
+}
+
+a img {
+  margin-bottom: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol,
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  margin-top: 0.4rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid var(--th-bg-3);
+  text-align: left;
+  padding: 0.5rem;
+}
+
+th {
+  background: var(--th-bg-2);
+}
+
+tr:nth-child(even) {
+  background: var(--th-bg-2);
+}
+
+table caption {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid var(--th-bg-3);
+  margin: 1rem auto;
+}
+
+blockquote {
+  padding: 1.5rem;
+  background: var(--th-bg-2);
+  border-left: 5px solid var(--th-bg-3);
+}
+
+blockquote *:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+details {
+  padding: 0.6rem 1rem;
+  background: var(--th-bg-2);
+  border: 1px solid var(--th-bg-3);
+  border-radius: 4px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details[open] {
+  padding-bottom: 0.75rem;
+}
+
+details[open] summary {
+  margin-bottom: 6px;
+}
+
+details[open] > *:last-child {
+  margin-bottom: 0;
+}
