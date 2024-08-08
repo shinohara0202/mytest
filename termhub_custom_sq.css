@@ -110,11 +110,10 @@ body::after {
 
 /* h1: 規約タイトル */
 h1 {
-  margin: 0 4rem 4rem 4rem ;
+  margin: 4rem 0 ;
   font-size: 1.8rem;
   border-left: 10px solid #EE1132; /* 淡い青色 */
   padding-left: 10px; /* 長方形とテキストの間隔を広げる */
-  text-align: center;
   line-height: 1.25;
   color: var(--th-tx-1);
 }
